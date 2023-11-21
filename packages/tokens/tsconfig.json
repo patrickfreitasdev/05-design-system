@@ -1,0 +1,4 @@
+{
+  "extends": "@magicos-ui/ts-config/base.json",
+  "include" : ["src"]
+}
