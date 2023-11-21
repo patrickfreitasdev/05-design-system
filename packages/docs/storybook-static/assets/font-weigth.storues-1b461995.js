@@ -1,0 +1,5 @@
+import{j as o,a as i,F as r}from"./jsx-runtime-9d752963.js";import{M as m}from"./chunk-S4VUQJ4A-feb2b6ff.js";import{T as a}from"./TokensGrid-705ab58b.js";import{a as p}from"./index-8c9e1412.js";import{u as e}from"./index-e8c3912b.js";import"./index-e03f90b5.js";import"./_commonjsHelpers-725317a4.js";import"./iframe-6e00897c.js";import"../sb-preview/runtime.js";import"./index-3a100d64.js";import"./chunk-6P7RB4HF-0bed2682.js";import"./index-d475d2ea.js";import"./index-d37d4223.js";import"./index-356e4a49.js";function s(t){const n=Object.assign({h1:"h1",p:"p"},e(),t.components);return i(r,{children:[o(m,{title:"Tokens/fontWeights"}),`
+`,o(n.h1,{id:"fontweights",children:"fontWeights"}),`
+`,o(n.p,{children:"Essas são os fontWeights de cores do nosso design system."}),`
+`,o(a,{tokens:p})]})}function D(t={}){const{wrapper:n}=Object.assign({},e(),t.components);return n?o(n,Object.assign({},t,{children:o(s,t)})):s(t)}export{D as default};
+//# sourceMappingURL=font-weigth.storues-1b461995.js.map

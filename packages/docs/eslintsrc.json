@@ -1,0 +1,3 @@
+{
+    "extends": "@magicos-ui/eslint-config"
+}
