@@ -29,17 +29,12 @@ const config = {
     autodocs: "tag",
   },
 
-  async viteFinal(config, { configType }) {
-    if (configType === 'DEVELOPMENT') {
-      // Your development configuration goes here
+  viteFinal: (config, { configType }) => {
+    if (configType == "PRODUCTION") {
+      //config.base = "/05-design-system/";
     }
-    if (configType === 'PRODUCTION') {
-      // Your production configuration goes here.
-      config.base = '/05-design-system/';
-    }
-    return mergeConfig(config, {
-      // Your environment configuration here
-    });
-  }
+
+    return config;
+  },
 };
 export default config;
